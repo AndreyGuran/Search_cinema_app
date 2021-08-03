@@ -8,22 +8,28 @@
 
 
 <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/view1"
         android:layout_width="300dp"
         android:layout_height="500dp"
         android:orientation="vertical"
         android:background="#7C4DFF"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout
+        android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="#FFD900"
         android:layout_alignParentBottom="true"/>
 
     <FrameLayout
+        android:id="@+id/view3"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_alignParentTop="true"
