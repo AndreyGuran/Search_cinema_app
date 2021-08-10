@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="res_text">My_movie_app</string>
+    <string name="btn_menu">Menu</string>
+    <string name="app_name">My_movie_app</string>
+    <string name="btn_fav">Favorites</string>
+    <string name="btn_watch_later">Watch later</string>
+    <string name="btn_setting">Setting</string>
+    <string name="btn_selections">Selections</string>
+</resources>
