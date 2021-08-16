@@ -1,16 +1,41 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.My_movie_app" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
-    </style>
+<!-- Base application theme. -->
+<style name="Theme.My_movie_app" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/purple_200</item>
+    <item name="colorPrimaryVariant">@color/purple_700</item>
+    <item name="colorOnPrimary">@color/black</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/teal_200</item>
+    <item name="colorSecondaryVariant">@color/teal_200</item>
+    <item name="colorOnSecondary">@color/black</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    <!-- Customize your theme here. -->
+    <item name="toolbarStyle">@style/Toolbar</item>
+    <item name="colorControlNormal">@color/icons_dark</item>
+
+</style>
+
+<style name="My_movie_app_DayNight">
+    <item name="android:background">@color/black</item>
+</style>
+
+<style name="BottomBar_DayNight">
+    <item name="android:background">@color/bottom_bar_dark</item>
+    <item name="itemIconTint">@color/icons_dark</item>
+    <item name="itemTextColor">@color/icons_dark</item>
+</style>
+
+
+<style name="Toolbar" parent="Widget.MaterialComponents.Toolbar">
+    <item name="titleTextColor">@color/icons_dark</item>
+    <item name="android:background">@color/app_bar_dark</item>
+    <item name="navigationIconTint">@color/icons_dark</item>
+    <item name="iconTint">@color/icons_dark</item>
+</style>
+
+    <style name="FilmFinder_DayNight"></style>
+
+
 </resources>

@@ -10,4 +10,9 @@
     <color name="colorPrimary">#FF5722</color>
     <color name="colorAccent">#FFC107</color>
     <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="app_bar_dark">#2A2D36</color>
+    <color name="bottom_bar_dark">#352545</color>
+    <color name="icons_dark">#3BF212</color>
 </resources>
+
+
